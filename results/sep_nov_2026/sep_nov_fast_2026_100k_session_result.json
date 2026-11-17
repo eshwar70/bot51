@@ -1,0 +1,89 @@
+{
+  "mode": "PRACTICE",
+  "initial_wallet": 100000.0,
+  "equity": 232569.42,
+  "cash": 232569.42,
+  "net_pnl": 132569.42,
+  "closed_trades": 75,
+  "open_position": null,
+  "max_drawdown": 29722.92,
+  "performance_validated": false,
+  "fees": "Estimated Rs40/side; replace with actual all-in charges",
+  "engine_version": "0.2-fast",
+  "timeframe": "1m+2.5s",
+  "source": "synthetic-fast-test-only",
+  "capital_halted": false,
+  "cooldown_until": "2026-11-09T10:53:00+05:30",
+  "gap_warnings": 0,
+  "last_decision": {
+    "direction": 0,
+    "proposed_direction": 1,
+    "setup_type": "1M_MOMENTUM",
+    "regime": "mtf_5m_1m_tick",
+    "features": {
+      "spot_live": 25044.65,
+      "bar_close_1m": 25044.65,
+      "ema9": 25018.39,
+      "ema21": 25009.8,
+      "ema9_5m": 25006.89,
+      "ema21_5m": 24984.89,
+      "trend_eff_5m": 0.499,
+      "ema_sep_atr_5m": 1.047,
+      "rsi_1m": 100.0,
+      "roc_3m_pct": 0.164,
+      "tick_delta_pts": 0.0,
+      "tick_samples": 0,
+      "live_breakout_5m": 0
+    },
+    "signals": {
+      "ema_trend_1m": 1,
+      "macd_1m": 1,
+      "roc_3m": 1,
+      "donchian_10m": 0,
+      "ema_pullback_1m": 0,
+      "rsi_1m": 0
+    },
+    "confirmations": {
+      "bars_1m": 1,
+      "bars_5m": 1,
+      "ticks_s": 0,
+      "breadth": 1,
+      "options_positioning": -1
+    },
+    "evidence_details": {
+      "mtf_5m": "trend5=1, eff5=0.499, esep5=1.047 (36x5m)",
+      "breadth": "50/50 fresh vs_open; adv=36.0%, dec=62.0%; delta(25m) adv=72.0%, dec=26.0%",
+      "options_positioning": "Near-ATM PCR=0.692 (20 strikes)",
+      "tick_window": "delta=+0.00pts over 0 ticks"
+    },
+    "vetoes": [
+      "RSI_OVERBOUGHT"
+    ],
+    "status": "PRACTICE_FAST_SCALP_NOT_PROFIT_PROVEN"
+  },
+  "warning": "Research paper simulation; not a forecast or real-money result",
+  "observed_days": 48,
+  "net_pnl_reconciliation_error": -0.01,
+  "coverage_note": "Fast 1-minute + sub-minute tick paper session.",
+  "pf": 2.48,
+  "calmar": 4.46,
+  "wins": 49,
+  "losses": 26,
+  "win_rate_pct": 65.33,
+  "gross_pnl": 138569.43,
+  "total_charges": 6000.0,
+  "active_days": 46,
+  "total_days": 48,
+  "reasons": {
+    "TARGET": 9,
+    "TRAIL_STOP": 31,
+    "MAX_HOLD_EXIT": 4,
+    "EARLY_STALL_EXIT": 9,
+    "STOP": 15,
+    "BREAKEVEN_STOP": 7
+  },
+  "setups": {
+    "1M_MOMENTUM": 75
+  },
+  "depth_skips": 0
+}

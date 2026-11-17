@@ -1,0 +1,85 @@
+{
+  "mode": "PRACTICE",
+  "initial_wallet": 100000.0,
+  "equity": 97726.28,
+  "cash": 97726.28,
+  "net_pnl": -2273.72,
+  "closed_trades": 2,
+  "open_position": null,
+  "max_drawdown": 2985.89,
+  "performance_validated": false,
+  "fees": "Estimated Rs40/side; replace with actual all-in charges",
+  "engine_version": "0.2-fast",
+  "timeframe": "1m+2.5s",
+  "source": "upstox-fast-1m-v02",
+  "capital_halted": false,
+  "cooldown_until": "2026-11-11T12:18:11.842331+05:30",
+  "gap_warnings": 1,
+  "last_decision": {
+    "direction": 0,
+    "proposed_direction": 0,
+    "setup_type": "NONE",
+    "regime": "mtf_5m_1m_tick",
+    "features": {
+      "spot_live": 25255.05,
+      "bar_close_1m": 25130.0,
+      "ema9": 25129.52,
+      "ema21": 25131.34,
+      "ema9_5m": 25149.3,
+      "ema21_5m": 25183.78,
+      "trend_eff_5m": 0.58,
+      "ema_sep_atr_5m": 1.437,
+      "rsi_1m": 100.0,
+      "roc_3m_pct": 0.0,
+      "tick_delta_pts": 125.05,
+      "tick_samples": 15,
+      "live_breakout_5m": 1
+    },
+    "signals": {
+      "ema_trend_1m": 0,
+      "macd_1m": 0,
+      "roc_3m": 0,
+      "donchian_10m": 0,
+      "ema_pullback_1m": 0,
+      "rsi_1m": 0
+    },
+    "confirmations": {
+      "bars_1m": 0,
+      "bars_5m": -1,
+      "ticks_s": 0,
+      "breadth": 0,
+      "options_positioning": -1
+    },
+    "evidence_details": {
+      "mtf_5m": "trend5=-1, eff5=0.580, esep5=1.437 (35x5m)",
+      "breadth": "50/50 fresh vs_open; adv=46.0%, dec=54.0%; delta(24m) adv=100.0%, dec=0.0%",
+      "options_positioning": "Near-ATM PCR=0.601 (20 strikes)",
+      "tick_window": "delta=+125.05pts over 15 ticks"
+    },
+    "vetoes": [
+      "NO_FAST_SETUP"
+    ],
+    "status": "PRACTICE_FAST_SCALP_NOT_PROFIT_PROVEN"
+  },
+  "warning": "Research paper simulation; not a forecast or real-money result",
+  "observed_days": 1,
+  "net_pnl_reconciliation_error": 0.0,
+  "coverage_note": "Fast 1-minute + sub-minute tick paper session.",
+  "pf": 0.0,
+  "calmar": -0.76,
+  "wins": 0,
+  "losses": 2,
+  "win_rate_pct": 0.0,
+  "gross_pnl": -2113.72,
+  "total_charges": 160.0,
+  "active_days": 1,
+  "total_days": 1,
+  "reasons": {
+    "MAX_HOLD_EXIT": 1,
+    "STOP": 1
+  },
+  "setups": {
+    "1M_MOMENTUM": 2
+  },
+  "depth_skips": 0
+}

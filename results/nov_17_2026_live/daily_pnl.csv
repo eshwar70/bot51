@@ -1,0 +1,2 @@
+date,start_equity,closed_trades,wins,losses,net_pnl,booked_estimated_charges,end_equity,snapshots,first_snapshot,last_snapshot,max_gap_seconds,source,scope
+2026-11-17,50000.0,4,3,1,2212.67,320.0,52212.67,8069,2026-11-17T09:16:13.949902+05:30,2026-11-17T15:29:59.125309+05:30,7.294,upstox-fast-1m-v02,Fast 1m+tick practice snapshots; open-position equity includes estimated exit costs

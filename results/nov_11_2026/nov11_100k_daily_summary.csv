@@ -1,0 +1,2 @@
+date,day,session_type,active_expiry,dte,spot_open,spot_high,spot_low,spot_close,spot_chg_pct,vix_close,start_wallet,trades,wins,losses,win_rate_pct,gross_pnl,charges,net_pnl,end_wallet,day_return_pct,note
+2026-11-11,Wed,Regular,2026-11-17,6,25337.8,25397.8,25095.35,25130.0,-0.82,17.52,100000.0,2,0,2,0.0,-2113.72,160.0,-2273.72,97726.28,-2.27,25250CE (1M_MOMENTUM) MAX_HOLD_EXIT (-14.37); 25250CE (1M_MOMENTUM) STOP (-2259.35)

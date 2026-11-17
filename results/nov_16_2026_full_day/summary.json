@@ -1,0 +1,69 @@
+{
+  "mode": "PRACTICE",
+  "initial_wallet": 50000.0,
+  "equity": 50000.0,
+  "cash": 50000.0,
+  "net_pnl": 0.0,
+  "closed_trades": 0,
+  "open_position": null,
+  "max_drawdown": 0.0,
+  "performance_validated": false,
+  "fees": "Estimated Rs40/side; replace with actual all-in charges",
+  "engine_version": "0.2-fast",
+  "timeframe": "1m+2.5s",
+  "source": "upstox-fast-1m-v02",
+  "capital_halted": false,
+  "cooldown_until": null,
+  "gap_warnings": 374,
+  "last_decision": {
+    "direction": 0,
+    "proposed_direction": 1,
+    "setup_type": "1M_MOMENTUM",
+    "regime": "mtf_5m_1m_tick",
+    "features": {
+      "spot_live": 25291.1,
+      "bar_close_1m": 25291.1,
+      "ema9": 25234.26,
+      "ema21": 25226.53,
+      "ema9_5m": 25233.14,
+      "ema21_5m": 25226.92,
+      "trend_eff_5m": 0.547,
+      "ema_sep_atr_5m": 0.306,
+      "rsi_1m": 100.0,
+      "roc_3m_pct": 0.2817,
+      "tick_delta_pts": 0.0,
+      "tick_samples": 1,
+      "live_breakout_5m": 0
+    },
+    "signals": {
+      "ema_trend_1m": 1,
+      "macd_1m": 1,
+      "roc_3m": 1,
+      "donchian_10m": 1,
+      "ema_pullback_1m": 1,
+      "rsi_1m": 0
+    },
+    "confirmations": {
+      "bars_1m": 1,
+      "bars_5m": 1,
+      "ticks_s": 0,
+      "breadth": 1,
+      "options_positioning": 0
+    },
+    "evidence_details": {
+      "mtf_5m": "trend5=1, eff5=0.547, esep5=0.306 (36x5m)",
+      "breadth": "50/50 fresh vs_open; adv=48.0%, dec=52.0%; delta(25m) adv=80.0%, dec=18.0%",
+      "options_positioning": "Near-ATM PCR=0.999 (20 strikes)",
+      "tick_window": "delta=+0.00pts over 1 ticks"
+    },
+    "vetoes": [
+      "LOW_5M_EMA_SEPARATION",
+      "RSI_OVERBOUGHT"
+    ],
+    "status": "PRACTICE_FAST_SCALP_NOT_PROFIT_PROVEN"
+  },
+  "warning": "Research paper simulation; not a forecast or real-money result",
+  "observed_days": 1,
+  "net_pnl_reconciliation_error": 0.0,
+  "coverage_note": "Fast 1-minute + sub-minute tick paper session."
+}

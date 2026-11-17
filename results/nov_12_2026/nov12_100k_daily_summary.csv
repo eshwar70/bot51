@@ -1,0 +1,2 @@
+date,day,session_type,active_expiry,dte,spot_open,spot_high,spot_low,spot_close,spot_chg_pct,vix_close,start_wallet,trades,wins,losses,win_rate_pct,gross_pnl,charges,net_pnl,end_wallet,day_return_pct,note
+2026-11-12,Thu,Regular,2026-11-17,5,25213.5,25348.5,25210.0,25275.25,0.24,16.62,100000.0,2,2,0,100.0,2843.99,160.0,2684.0,102684.0,2.68,25450PE (MORNING_TWAP_BRK) TRAIL_STOP (+2388.80); 25400PE (1M_MOMENTUM) MAX_HOLD_EXIT (+295.19)
