@@ -99,6 +99,8 @@ python3 test_bot.py
 | **Nov 13, 2026 (Live Practice Session)** | ₹50,000 | `2` (`1W/1L`, `50.0%`) | **`1.82`** | **`+₹1,386.93 (+2.77%)`** | **Beat 15 Iter Winner** 🏆 |
 | **Nov 16, 2026 (Full-Day Practice)** | ₹50,000 | `0` (`0W/0L`) | `N/A` | **`₹0.00 (0.00% DD)`** | 100% Capital Preserved |
 | **Nov 17, 2026 (Live Practice Session)** | ₹50,000 | `4` (`3W/1L`, `75.0%`) | **`2.15`** | **`+₹2,212.67 (+4.43%)`** | **Beat 15 Iter Winner** 🏆 |
+| **Nov 18, 2026 (Live Practice Session)** | ₹50,000 | `3` (`1W/2L`, `33.3%`) | `0.15` | **`-₹3,281.27 (-6.56%)`** | Controlled Risk / 1-Lot Discipline |
+| **Nov 20, 2026 (Live Practice Session)** | ₹50,000 | `3` (`3W/0L`, `100.0%`) | **`∞`** | **`+₹2,211.45 (+4.42%)`** | **Perfect Day / 100% Win Rate** 🏆 |
 
 ---
 
@@ -129,5 +131,7 @@ winner of 51/  (also symlinked as "winner 51")
     ├── nov_12_2026/              # Nov 12 results (+₹2,684.00)
     ├── nov_13_2026_live/         # Nov 13 live practice (+₹1,386.93)
     ├── nov_16_2026_full_day/     # Nov 16 full-day replay (₹0.00 / 0% DD)
-    └── nov_17_2026_live/         # Nov 17 live practice (+₹2,212.67)
+    ├── nov_17_2026_live/         # Nov 17 live practice (+₹2,212.67)
+    ├── nov_18_2026_live/         # Nov 18 live practice (-₹3,281.27)
+    └── nov_20_2026_live/         # Nov 20 live practice (+₹2,211.45, 100% WR)
 ```

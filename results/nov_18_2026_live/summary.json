@@ -1,0 +1,70 @@
+{
+  "mode": "PRACTICE",
+  "initial_wallet": 50000.0,
+  "equity": 46718.73,
+  "cash": 46718.73,
+  "net_pnl": -3281.27,
+  "closed_trades": 3,
+  "open_position": null,
+  "max_drawdown": 4077.43,
+  "performance_validated": false,
+  "fees": "Estimated Rs40/side; replace with actual all-in charges",
+  "engine_version": "0.2-fast",
+  "timeframe": "1m+2.5s",
+  "source": "upstox-fast-1m-v02",
+  "capital_halted": false,
+  "cooldown_until": "2026-11-18T11:24:41.974767+05:30",
+  "gap_warnings": 0,
+  "last_decision": {
+    "direction": 0,
+    "proposed_direction": 1,
+    "setup_type": "1M_MOMENTUM",
+    "regime": "mtf_5m_1m_tick",
+    "features": {
+      "spot_live": 25227.95,
+      "bar_close_1m": 25227.95,
+      "ema9": 25221.78,
+      "ema21": 25220.48,
+      "ema9_5m": 25221.76,
+      "ema21_5m": 25219.45,
+      "trend_eff_5m": 0.327,
+      "ema_sep_atr_5m": 0.122,
+      "rsi_1m": 94.34,
+      "roc_3m_pct": 0.0297,
+      "tick_delta_pts": 0.0,
+      "tick_samples": 15,
+      "live_breakout_5m": 0
+    },
+    "signals": {
+      "ema_trend_1m": 1,
+      "macd_1m": 1,
+      "roc_3m": 0,
+      "donchian_10m": 1,
+      "ema_pullback_1m": 0,
+      "rsi_1m": 0
+    },
+    "confirmations": {
+      "bars_1m": 1,
+      "bars_5m": 0,
+      "ticks_s": 0,
+      "breadth": 1,
+      "options_positioning": -1
+    },
+    "evidence_details": {
+      "mtf_5m": "trend5=0, eff5=0.327, esep5=0.122 (35x5m)",
+      "breadth": "50/50 fresh vs_open; adv=36.0%, dec=64.0%; delta(24m) adv=58.0%, dec=42.0%",
+      "options_positioning": "Near-ATM PCR=0.816 (20 strikes)",
+      "tick_window": "delta=+0.00pts over 15 ticks"
+    },
+    "vetoes": [
+      "MTF_5M_TREND_MISALIGNED",
+      "LOW_5M_EMA_SEPARATION",
+      "RSI_OVERBOUGHT"
+    ],
+    "status": "PRACTICE_FAST_SCALP_NOT_PROFIT_PROVEN"
+  },
+  "warning": "Research paper simulation; not a forecast or real-money result",
+  "observed_days": 1,
+  "net_pnl_reconciliation_error": 0.0,
+  "coverage_note": "Fast 1-minute + sub-minute tick paper session."
+}
