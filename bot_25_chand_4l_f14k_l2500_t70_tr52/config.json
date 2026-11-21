@@ -1,0 +1,94 @@
+{
+    "initial_wallet": 50000.0,
+    "capital_floor": 14000.0,
+    "safety_buffer": 2000.0,
+    "planned_risk": 3000.0,
+    "daily_loss_limit": 4000.0,
+    "daily_profit_lock": 2500.0,
+    "dynamic_risk_scaling": true,
+    "max_lots": 4,
+    "loss_streak_single_lot": true,
+    "loss_streak_lot_cap": 1,
+    "target_delta": 0.6,
+    "delta_min": 0.4,
+    "delta_max": 0.68,
+    "max_trades_day": 4,
+    "max_loss_streak": 2,
+    "stop_fraction": 0.1,
+    "target_fraction": 0.7,
+    "breakeven_activation_fraction": 0.065,
+    "breakeven_lock_fraction": 0.028,
+    "trail_activation_fraction": 0.13,
+    "trail_fraction": 0.052,
+    "step_trail_levels": [
+        [
+            0.085,
+            0.038
+        ],
+        [
+            0.15,
+            0.095
+        ],
+        [
+            0.23,
+            0.165
+        ],
+        [
+            0.32,
+            0.25
+        ],
+        [
+            0.42,
+            0.34
+        ]
+    ],
+    "entry_start_clock": "09:20",
+    "entry_end_clock": "14:00",
+    "force_exit_clock": "15:15",
+    "cooldown_minutes": 5,
+    "direction_cooldown_minutes": 15,
+    "max_hold_minutes": 65,
+    "max_premium_loss_fraction": 0.48,
+    "vix_min": 14.0,
+    "vix_max": 35.0,
+    "early_stall_exit": false,
+    "early_stall_max_vix": 14.0,
+    "stall_minutes": 11.0,
+    "low_vix_regime": {
+        "enabled": true,
+        "vix_min": 10.0,
+        "max_lots": 1,
+        "target_delta": 0.65,
+        "delta_max": 0.76,
+        "entry_end_clock": "13:30",
+        "max_trades_day": 1,
+        "max_hold_minutes": 35,
+        "stop_fraction": 0.075,
+        "target_fraction": 0.145,
+        "breakeven_activation_fraction": 0.045,
+        "breakeven_lock_fraction": 0.025,
+        "trail_activation_fraction": 0.065,
+        "trail_fraction": 0.028,
+        "max_premium_loss_fraction": 0.45,
+        "early_stall_exit": true,
+        "stall_minutes": 11.0,
+        "step_trail_levels": [
+            [
+                0.085,
+                0.035
+            ],
+            [
+                0.15,
+                0.09
+            ],
+            [
+                0.22,
+                0.15
+            ],
+            [
+                0.28,
+                0.215
+            ]
+        ]
+    }
+}

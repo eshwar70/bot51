@@ -1,0 +1,20 @@
+{
+  "bot_id": "bot_01_chandelier_run_t50_l2200",
+  "bot_name": "Chandelier Runner Tgt50% Lock Rs2200",
+  "initial_wallet": 50000.0,
+  "equity": 116851.51,
+  "cash": 116851.51,
+  "net_pnl": 66851.51,
+  "return_pct": 133.7,
+  "closed_trades": 95,
+  "wins": 63,
+  "losses": 32,
+  "win_rate_pct": 66.32,
+  "profit_factor": 2.179,
+  "max_drawdown": 14439.32,
+  "observed_days": 54,
+  "active_days": 51,
+  "daily_coverage_pct": 94.44,
+  "avg_trades_per_day": 1.759,
+  "capital_halted": false
+}

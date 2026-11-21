@@ -50,6 +50,33 @@ python3 test_bot.py
 
 ---
 
+## 🤖 Standalone Championship Bots Included
+
+This repository contains both championship trading bots packaged as standalone, self-contained folders with their own runtime, configs, historical results, and CLI runners:
+
+### 1. [bot_25_chand_4l_f14k_l2500_t70_tr52](./bot_25_chand_4l_f14k_l2500_t70_tr52/)
+- **Strategy**: Rung 25 — Chandelier 4L F14k L2500 T70% (Grand Master Champion)
+- **Benchmark**: Net Profit +₹103,813.88 (+207.63%), 66.7% Win Rate, Profit Factor 2.238.
+- **Parameters**: 4-lot dynamic scaling, ₹14,000 risk floor, ₹2,500 profit lock, 70% target, 5.2% Chandelier trailing stop.
+- **Run**:
+  ```bash
+  cd bot_25_chand_4l_f14k_l2500_t70_tr52
+  python3 run.py --wallet 50000
+  ```
+
+### 2. [Chandelier Runner Tgt50% Lock Rs2200](./Chandelier%20Runner%20Tgt50%25%20Lock%20Rs2200/) (alias: `chandelier_runner_tgt50_lock_rs2200`)
+- **Strategy**: Chandelier Runner Tgt50% Lock Rs2200 (bot_01_chandelier_run_t50_l2200)
+- **Benchmark**: Net Profit +₹66,851.51 (+133.70%), 51/54 active days (94.4% coverage), Profit Factor 2.179.
+- **Parameters**: 5m Supertrend momentum runner, 50% target, ₹2,200 profit lock, 2-lot cap, ₹30,000 risk floor.
+- **Run**:
+  ```bash
+  cd "Chandelier Runner Tgt50% Lock Rs2200"
+  python3 run.py --wallet 50000
+  ```
+
+
+---
+
 ## 🏛️ Core Strategy Architecture
 
 1. **Dual VIX Regime Engine:**
